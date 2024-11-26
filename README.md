@@ -1,24 +1,29 @@
-# Red Spark
+# *Car Diagnostics App*
+## Overview
+The Car Diagnostics App is a mobile application designed to help users identify and resolve vehicle issues based on symptoms they experience. The app allows users to input symptoms such as sight, smell, feel, sound, or issues where the car won’t start. Based on their selection, users are directed to a list of possible solutions submitted by other users. Users can also contribute their own solutions, which can be upvoted or downvoted within the app.
 
-* Our project will be a car diagnostics app that allows the user to input an issue that is happening based on sight, smell, feel, sound,
-    and if it won't start. Based on what the user clicks on, they will be brought to a list of solutions posted by other users. For example,
-    the user will open the app, choose the option of sight, smell, feel, or sounds. If they choose "smells like" that would bring you to a list
-    of possible smells, which then takes them to a solutions page.
+## Features
+Symptom Selection: Users can choose from symptoms like "Sight", "Smell", "Feel", "Sound", or "Won't Start" to narrow down their issue.
 
-* The user will also be able to then input their own solution that can be "upvoted"/"downvoted" within the app.
+Solution Lists: Each symptom selection brings the user to a list of possible solutions submitted by other users.
 
-## Team Members and Roles
+Upvote/Downvote System: Users can interact with solutions by voting them up or down.
 
-* [Joshua Ciesniewski](https://github.com/JoshCiesniewski/-CIS350-HW20-Ciesniewski)
-* [Mike Melei](https://github.com/mikemel21/CIS-350-HW2-Melei)
-* [Alex Espinoza](https://github.com/alexespinoza007/CIS350-HW2-Espinoza)
-* [Lily Baer](https://github.com/lilybaer/CIS350-HW2-Baer)
-* [Justin Burch](https://github.com/Jman25/CIS350-HW2-Burch)
+User Contributions: Users can submit their own solutions and solutions that are approved by the app’s moderation system can be posted.
 
-## Prerequisites
+Comment Section: Each solution will have a comment section where users can ask questions, share thoughts, and engage with other contributors.
 
-## Run Instructions
-0. Download files
-1. Open in Xcode
-2. Run main.storyboard file in simulator or connected target device
-3. Use App.
+User Profiles: Users can customize their profile, view their past contributions, and manage their profile information.
+
+Customizable Text Size and Dark Mode: Users can adjust text size and toggle dark mode to enhance readability and comfort.
+
+## Technologies Used
+iOS Development (Xcode, Swift): The app was developed using Swift in Xcode.
+
+Firebase: Used for storing user data, solution submissions, comments, user profiles, and upvote/downvote counts.
+
+Comments and User Profiles: Implemented using Firestore database to allow users to manage their comments, solutions, and profile information.
+
+Custom Components (e.g., Comment Section): Developed reusable SwiftUI components for dynamic and responsive UI elements.
+
+Dark Mode and Text Size Settings: Managed using app settings and user preferences stored in UserDefaults.
